@@ -1,0 +1,30 @@
+html { 
+    font-size: 16px;
+  }
+  body > app-root > div > div.content > tab-body.content-tab.ng-tns-c0-0.ng-star-inserted.content-tab-active.active > split-tab > terminaltab::before {
+  content:"";
+        /*-webkit-filter: opacity(50%);  
+        filter: opacity(50%); */
+        background-image:url('https://w.wallhaven.cc/full/vg/wallhaven-vgy36p.jpg');
+  background-repeat: no-repeat;
+        opacity:0.59;//透明度设置
+        z-index:-1;
+        background-size:100%;
+        width:100%; 
+        height:100%;
+        position:absolute;
+        top:0px;
+        left:0px;
+  }
+  body > app-root > div > div.content > tab-body.content-tab.ng-tns-c0-0.ng-star-inserted.content-tab-active.active > split-tab > ssh-tab::before{
+  content:"";
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(255, 255, 255, 0)), url('https://w.wallhaven.cc/full/vg/wallhaven-vgy36p.jpg');
+      //opacity:0.29;//透明度设置
+      z-index:-1;
+        background-size:100%;
+        width:100%; 
+        height:100%;
+        position:absolute;
+        top:0px;
+        left:0px;
+  }
